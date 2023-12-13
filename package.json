@@ -1,0 +1,10 @@
+{
+  "name": "StimulusPracticeApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zohaib Riaz <zohaib.riaz@devsinc.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

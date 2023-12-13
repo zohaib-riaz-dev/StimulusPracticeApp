@@ -1,0 +1,12 @@
+<div id="<%= dom_id post %>">
+  <p data-controller="post-name" data-post-name-target="name" data-action="click->post-name#getName">
+    <strong>Title:</strong>
+    <%= post.title %>
+  </p>
+
+  <p>
+    <strong>Body:</strong>
+    <%= post.body %>
+  </p>
+
+</div>
