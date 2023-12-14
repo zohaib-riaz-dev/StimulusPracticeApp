@@ -26,7 +26,7 @@
   <button data-action="clipboard#copy">Copy to Clipboard</button>
 </div>
 
-</br></br></br></br></br></br></br>
+</br></br></br></br></br>
 
 <div data-controller="slideshow" data-slideshow-index-value="1">
   <button data-action="slideshow#previous"> ← </button>
@@ -36,4 +36,11 @@
   <div data-slideshow-target="slide">🙈</div>
   <div data-slideshow-target="slide">🙉</div>
   <div data-slideshow-target="slide">🙊</div>
+</div>
+
+</br></br></br></br></br>
+
+<div data-controller="example" data-example-message-value="Hello, Stimulus!">
+  <p data-example-target="output"></p>
+  <input type="text" data-action="input->example#changeMessage">
 </div>
